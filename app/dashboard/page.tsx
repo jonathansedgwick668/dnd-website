@@ -5,6 +5,6 @@ export default async function Page() {
   const classes = await response.json();
   
   return (
-    <p>{classes.name}</p>
+    <p>{classes.hit_die}</p>
   )
 }
